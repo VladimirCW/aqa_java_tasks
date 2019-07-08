@@ -10,7 +10,10 @@ public class Task3 {
 
     public static void main(String[] args) {
         String s = "Vladimir";
-        System.out.println(
+        int i = 0;
+        while (i < 1) {
+
+            System.out.println(
                 s + " " + s + " " + s + " " + s + " " + s + " " + s + " " + s + " " + s + " " + s + " "
                         + s);
         System.out.println(
@@ -25,5 +28,7 @@ public class Task3 {
         System.out.println(
                 s + " " + s + " " + s + " " + s + " " + s + " " + s + " " + s + " " + s + " " + s + " "
                         + s);
+        i++;
+        };
     }
 }
