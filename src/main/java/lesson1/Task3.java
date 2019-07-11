@@ -1,34 +1,21 @@
 package lesson1;
 
-/* Мое имя
-Вывести на экран свое имя 5 строк по 10 раз (через пробел).
-System.out.println, System.out.print можно использовать только по одному разу
-для этого нужно воспользоваться циклом while
-*/
-
 public class Task3 {
 
     public static void main(String[] args) {
+        int i = 1,  j = 1;
         String s = "Vladimir";
-        int i = 0;
-        while (i < 1) {
-
-            System.out.println(
-                s + " " + s + " " + s + " " + s + " " + s + " " + s + " " + s + " " + s + " " + s + " "
-                        + s);
-        System.out.println(
-                s + " " + s + " " + s + " " + s + " " + s + " " + s + " " + s + " " + s + " " + s + " "
-                        + s);
-        System.out.println(
-                s + " " + s + " " + s + " " + s + " " + s + " " + s + " " + s + " " + s + " " + s + " "
-                        + s);
-        System.out.println(
-                s + " " + s + " " + s + " " + s + " " + s + " " + s + " " + s + " " + s + " " + s + " "
-                        + s);
-        System.out.println(
-                s + " " + s + " " + s + " " + s + " " + s + " " + s + " " + s + " " + s + " " + s + " "
-                        + s);
-        i++;
-        };
+        while (i <= 5) {
+            while (j <= 10) {
+                System.out.print(s + " ");
+                j++;
+            }
+            System.out.println();
+            j = 1;
+            i++;
+        }
     }
 }
+
+
+
