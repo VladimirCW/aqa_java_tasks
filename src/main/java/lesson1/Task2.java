@@ -29,13 +29,8 @@ public class Task2 {
         System.out.println(
                 s + " " + s + " " + s + " " + s + " " + s + " " + s + " " + s + " " + s + " " + s + " "
                         + s);
-    }
+       }
     }
 }
 
-//    public static void main(String[] args) {
-//        String s = "Vladimir";
-//        for (int i = 0; i < 10; i++) {
-//            System.out.println("Vladimir");
-//        }
-//    }
+
