@@ -18,7 +18,15 @@ System.out.println, System.out.print можно использовать тол�
 public class Task2 {
 
     public static void main(String[] args) {
-        String s = "*";
-        System.out.println(s);
+        for (int i = 1; i <=10; i++) {
+            String s = "*";
+            for (int j = i; j != 0; j--) {
+                System.out.print(s + " ");
+            }
+            System.out.println();
+
+        }
     }
 }
+
+
