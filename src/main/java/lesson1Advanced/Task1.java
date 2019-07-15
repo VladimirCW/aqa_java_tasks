@@ -17,15 +17,3 @@ public class Task1 {
 
 }
 
-
-
-=======
-        //System.out.println(min([2,4,6]));
-        //System.out.println(min([2,4,6,1,90,2,0]));
-    }
-
-    public static int min(int[] a) {
-        return 0;
-    }
-}
->>>>>>> origin/master
