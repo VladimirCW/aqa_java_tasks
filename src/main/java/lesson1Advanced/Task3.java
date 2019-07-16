@@ -19,12 +19,14 @@ System.out.println, System.out.print можно использовать тол�
 public class Task3 {
 
     public static void main(String[] args) {
-            for (int i = 0; i <=10; i++) {
-            String s = "*";
-            for (int j = i; j < 10; j++) {
+        String s = "*";
+        for (int i = 1; i <=10; i++) {
+            for (int j = i; j != 0; j--) {
+
                 System.out.print(s + " ");
             }
             System.out.println();
+
 
         }
     }
