@@ -11,8 +11,8 @@ public class Task3 {
     public static void main(String[] args) {
         String ir = "Irina";
         int i = 0;
-        int j = 0;
         while (i < 5) {
+            int j = 0;
             while (j < 10) {
                 System.out.print(ir + " ");
                 j++;
