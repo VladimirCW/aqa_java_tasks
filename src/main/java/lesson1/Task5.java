@@ -9,7 +9,10 @@ public class Task5 {
         //System.out.println(reverse("Hello world!!!"));
     }
 
+    //By StringBuilder reverse()
     public static String reverse(String str) {
-        return "";
+        StringBuilder sb = new StringBuilder(str);
+        str = sb.reverse().toString();
+        return str;
     }
 }
