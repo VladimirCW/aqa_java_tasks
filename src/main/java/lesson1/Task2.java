@@ -9,21 +9,19 @@ System.out.println, System.out.print можно использовать тол�
 public class Task2 {
 
     public static void main(String[] args) {
-        String s = "Vladimir";
-        System.out.println(
-                s + " " + s + " " + s + " " + s + " " + s + " " + s + " " + s + " " + s + " " + s + " "
-                        + s);
-        System.out.println(
-                s + " " + s + " " + s + " " + s + " " + s + " " + s + " " + s + " " + s + " " + s + " "
-                        + s);
-        System.out.println(
-                s + " " + s + " " + s + " " + s + " " + s + " " + s + " " + s + " " + s + " " + s + " "
-                        + s);
-        System.out.println(
-                s + " " + s + " " + s + " " + s + " " + s + " " + s + " " + s + " " + s + " " + s + " "
-                        + s);
-        System.out.println(
-                s + " " + s + " " + s + " " + s + " " + s + " " + s + " " + s + " " + s + " " + s + " "
-                        + s);
+        System.out.println(blockNames());
+    }
+
+    public static String blockNames(){
+        String s = "Alex ";
+        String name = "";
+
+        for (int j = 0; j < 5; j++ ) {
+            for (int i = 0; i < 10; i++) {
+                name += i == 9 ? s + "\n" : s;
+                //System.out.print(i == 9 ? s + "\r\n" : s); //last word in the string will be printed with the "return"
+            }
+        }
+        return name;
     }
 }

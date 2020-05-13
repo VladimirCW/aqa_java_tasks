@@ -3,8 +3,12 @@
     <test name="Testing Parameterization">
         <parameter name="set_of_numbers" value="1,2,3"/>
         <parameter name="expectedMin" value="1"/>
+        <parameter name="expectedWordsAmount" value="50"/>
+        <parameter name="expectedRows" value="5"/>
+
         <classes>
             <class name="Task1Test" />
+            <class name="Task2Test" />
         </classes>
     </test>
 </suite>
