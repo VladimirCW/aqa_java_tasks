@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="firstSuite">
+    <test name="Testing Parameterization">
+        <parameter name="set_of_numbers" value="1,2,3"/>
+        <parameter name="expectedMin" value="1"/>
+        <classes>
+            <class name="Task1Test" />
+        </classes>
+    </test>
+</suite>
